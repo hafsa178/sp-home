@@ -6,8 +6,8 @@
    Case Problem 1
    
    Layout styles for Slate and Pencil Tutoring
-   Author: Deerick Venz C. Cabezas
-   Date:   August 22, 2019
+   Author: Hafsa Sheikhomar
+   Date:  November 22, 2024
    
    Filename: sp_layout.css
 
@@ -28,7 +28,7 @@ body {
 	min-height: 100%;
 }
 
-header, ul, nav, li {
+header, ul, nav, li, a {
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -132,7 +132,8 @@ ul#comments > li > p {
 
 /* Footer Styles */
 
-body > footer {
+body > footer::after {
+	content: "";
 	margin: both;
 	clear: both;
 }
